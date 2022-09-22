@@ -4,11 +4,11 @@ import React from 'react'
 
 function EyesOnMe() {
  
-    function handleFocus(){
+    const handleFocus= ()=> {
         console.log('Good!');
     }
 
-    function hadleBlur(){
+    const hadleBlur = () => {
         console.log('Hey! Eyes on me!');
     }
 
